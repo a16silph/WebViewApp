@@ -27,8 +27,12 @@ public class MainActivity extends AppCompatActivity {
         // Skapar så att elementen blir aktiv.
         setContentView(webView);
 
-        // Implentering av egen app-prototyp.
+        // Implentering av egen app-prototyp, Average Joe.
         webView.loadUrl("https://wwwlab.iit.his.se/a16silph/mobilapplikation/Project%20Dalucci/Index.html");
+
+        // En till URL för en intern länk.
+        //webView.loadUrl("file:///android_asset/secret/secret.html");
+
 
 
         // 1. Create a WebView element in the layout file content_main.xml
